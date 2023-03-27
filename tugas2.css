@@ -1,0 +1,186 @@
+html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #65139a;
+    font-family: "Calibri";
+    font-weight: bold;
+}
+
+header {
+    background-color: #fff;
+    color: #ffffff;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+.list li {
+    float: left;
+    padding: 33px 20px;
+}
+.logo{
+    padding: 0.5px 20px;
+    font-size: 25px;
+    float: left;
+}
+
+.banner{
+    text-align: left;
+    background-color: #65139a;
+    padding: 200px 0 100px 0;
+    background-size:cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: unset;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.banner h1{
+    font-size: 100px;
+    opacity: 0.7;
+}
+
+.banner h2{
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.btn-opsi{
+    margin: 20px 0;
+}
+
+.btn-opsi p{
+    margin: 10px 0;
+}
+
+.btn{
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition:  background 0.5s;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.content{
+    margin-top: 100px;
+    height: 500px;
+}
+
+.judul-content{
+    font-size: 28px;
+    border-bottom: 2px solid #9c24da;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+.keunggulan{
+    float: left;
+    margin-right: 40px;
+}
+
+.keunggulan p{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.comment{
+    padding-top: 100px;
+}
+
+input, textarea{
+    border: 1px solid #9c24da;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.form p{
+    padding-bottom: 10px;
+}
+
+.submit{
+    font-size: 18px;
+    color: #9c24da;
+    background-color: #ffffff;
+}
+
+.footer{
+    background: #65139a;
+    color: #fff;
+    font-size: 14px;
+    padding : 60px 0 20px;
+}
+
+.footer p{
+    color: #fff;
+}
+
+.footer h3{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.copyright{
+    text-align: center;
+}
+
